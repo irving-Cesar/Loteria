@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(115, 125, 212);
+}
+
+div#jogo {
+    height: 100px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-width: 8px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 5px 5px 10px 5px rgba(87, 86, 86, 0.815);
+}
+
+.container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    flex-direction: row;
+}
+
+button#sortear {
+    height: 50px;
+    width: 70px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#quantidade {
+    padding: 0.5rem;
+    height: 20px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+label {
+    font: optional;
+    font-size: large;
+}
