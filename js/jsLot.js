@@ -84,8 +84,8 @@ function getRandomInt(qnt) {
             }
         }
 
-
-        loc.innerText += (list.sort((a, b) => a - b).join(" ")) + "\n" + list2.sort((a, b) => a - b).join(" ");
+        
+        loc.innerText += (list.sort((a, b) => a - b).join(" ")) + "\n" + list2.sort((a, b) => a - b).join(" "); // Separando números que mais/menos sorteados 
         loc.style.margin = "auto"
         jogo.appendChild(loc);
 
