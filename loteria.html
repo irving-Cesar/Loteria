@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simulado da Loteria</title>
+        <link rel="stylesheet" href="css/css.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <!-- <input type="button" id = "bixo" value = "Jogo do bixo" onclick="location.href = '../bixo/jogoBixoSoma.html'"> -->
+            <h1 align = "center" id = "text">LOTERIA</h1>
+            <button id = "sortear" onclick="getRandomInt()">Sortear</button> 
+        </div>
+        
+
+        <div class="container">
+            <label id = "quant-jogos" class = 'teste'>Quantidade de jogos: </label>
+            <input type="number" class = 'teste' title="quantidade de jogos" id="quantidade">
+        </div>
+        
+        <div id = "jogo"></div>  
+    </body>
+    <script src="js/jsLot.js"></script>
+</html>
